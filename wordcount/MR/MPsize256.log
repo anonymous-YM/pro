@@ -1,0 +1,151 @@
+18/11/25 03:28:36 INFO client.RMProxy: Connecting to ResourceManager at master/172.16.1.1:8032
+18/11/25 03:28:37 INFO input.FileInputFormat: Total input paths to process : 1
+18/11/25 03:28:37 INFO mapreduce.JobSubmitter: number of splits:2
+18/11/25 03:28:37 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1543099092534_0010
+18/11/25 03:28:37 INFO impl.YarnClientImpl: Submitted application application_1543099092534_0010
+18/11/25 03:28:37 INFO mapreduce.Job: The url to track the job: http://master:8088/proxy/application_1543099092534_0010/
+18/11/25 03:28:37 INFO mapreduce.Job: Running job: job_1543099092534_0010
+18/11/25 03:28:44 INFO mapreduce.Job: Job job_1543099092534_0010 running in uber mode : false
+18/11/25 03:28:44 INFO mapreduce.Job:  map 0% reduce 0%
+18/11/25 03:28:55 INFO mapreduce.Job:  map 12% reduce 0%
+18/11/25 03:28:58 INFO mapreduce.Job:  map 13% reduce 0%
+18/11/25 03:29:01 INFO mapreduce.Job:  map 17% reduce 0%
+18/11/25 03:29:02 INFO mapreduce.Job:  map 21% reduce 0%
+18/11/25 03:29:04 INFO mapreduce.Job:  map 22% reduce 0%
+18/11/25 03:29:07 INFO mapreduce.Job:  map 31% reduce 0%
+18/11/25 03:29:10 INFO mapreduce.Job:  map 33% reduce 0%
+18/11/25 03:29:13 INFO mapreduce.Job:  map 41% reduce 0%
+18/11/25 03:29:16 INFO mapreduce.Job:  map 44% reduce 0%
+18/11/25 03:29:19 INFO mapreduce.Job:  map 51% reduce 0%
+18/11/25 03:29:22 INFO mapreduce.Job:  map 55% reduce 0%
+18/11/25 03:29:26 INFO mapreduce.Job:  map 61% reduce 0%
+18/11/25 03:29:29 INFO mapreduce.Job:  map 64% reduce 0%
+18/11/25 03:29:30 INFO mapreduce.Job:  map 80% reduce 0%
+18/11/25 03:29:32 INFO mapreduce.Job:  map 83% reduce 0%
+18/11/25 03:29:35 INFO mapreduce.Job:  map 100% reduce 0%
+18/11/25 03:29:37 INFO mapreduce.Job:  map 100% reduce 100%
+18/11/25 03:29:37 INFO mapreduce.Job: Job job_1543099092534_0010 completed successfully
+18/11/25 03:29:37 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=10797950
+		FILE: Number of bytes written=12473432
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=254218654
+		HDFS: Number of bytes written=637436
+		HDFS: Number of read operations=9
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=2
+		Launched reduce tasks=1
+		Data-local map tasks=2
+		Total time spent by all maps in occupied slots (ms)=91651
+		Total time spent by all reduces in occupied slots (ms)=5152
+		Total time spent by all map tasks (ms)=91651
+		Total time spent by all reduce tasks (ms)=5152
+		Total vcore-seconds taken by all map tasks=91651
+		Total vcore-seconds taken by all reduce tasks=5152
+		Total megabyte-seconds taken by all map tasks=93850624
+		Total megabyte-seconds taken by all reduce tasks=5275648
+	Map-Reduce Framework
+		Map input records=4797264
+		Map output records=45708992
+		Map output bytes=413474592
+		Map output materialized bytes=1328032
+		Input split bytes=206
+		Combine input records=46364489
+		Combine output records=747319
+		Reduce input groups=45911
+		Reduce shuffle bytes=1328032
+		Reduce input records=91822
+		Reduce output records=45911
+		Spilled Records=839141
+		Shuffled Maps =2
+		Failed Shuffles=0
+		Merged Map outputs=2
+		GC time elapsed (ms)=1144
+		CPU time spent (ms)=84910
+		Physical memory (bytes) snapshot=537399296
+		Virtual memory (bytes) snapshot=6236864512
+		Total committed heap usage (bytes)=355999744
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=254218448
+	File Output Format Counters 
+		Bytes Written=637436
+18/11/25 03:29:37 INFO client.RMProxy: Connecting to ResourceManager at master/172.16.1.1:8032
+18/11/25 03:29:37 INFO input.FileInputFormat: Total input paths to process : 1
+18/11/25 03:29:37 INFO mapreduce.JobSubmitter: number of splits:1
+18/11/25 03:29:37 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1543099092534_0011
+18/11/25 03:29:37 INFO impl.YarnClientImpl: Submitted application application_1543099092534_0011
+18/11/25 03:29:37 INFO mapreduce.Job: The url to track the job: http://master:8088/proxy/application_1543099092534_0011/
+18/11/25 03:29:37 INFO mapreduce.Job: Running job: job_1543099092534_0011
+18/11/25 03:29:48 INFO mapreduce.Job: Job job_1543099092534_0011 running in uber mode : false
+18/11/25 03:29:48 INFO mapreduce.Job:  map 0% reduce 0%
+18/11/25 03:29:55 INFO mapreduce.Job:  map 100% reduce 0%
+18/11/25 03:30:02 INFO mapreduce.Job:  map 100% reduce 100%
+18/11/25 03:30:02 INFO mapreduce.Job: Job job_1543099092534_0011 completed successfully
+18/11/25 03:30:02 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=709927
+		FILE: Number of bytes written=1651413
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=637557
+		HDFS: Number of bytes written=683347
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=4004
+		Total time spent by all reduces in occupied slots (ms)=3960
+		Total time spent by all map tasks (ms)=4004
+		Total time spent by all reduce tasks (ms)=3960
+		Total vcore-seconds taken by all map tasks=4004
+		Total vcore-seconds taken by all reduce tasks=3960
+		Total megabyte-seconds taken by all map tasks=4100096
+		Total megabyte-seconds taken by all reduce tasks=4055040
+	Map-Reduce Framework
+		Map input records=45911
+		Map output records=45911
+		Map output bytes=618099
+		Map output materialized bytes=709927
+		Input split bytes=121
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=949
+		Reduce shuffle bytes=709927
+		Reduce input records=45911
+		Reduce output records=45911
+		Spilled Records=91822
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=107
+		CPU time spent (ms)=1950
+		Physical memory (bytes) snapshot=304574464
+		Virtual memory (bytes) snapshot=4156862464
+		Total committed heap usage (bytes)=202379264
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=637436
+	File Output Format Counters 
+		Bytes Written=683347

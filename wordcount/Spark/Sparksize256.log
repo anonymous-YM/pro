@@ -1,0 +1,97 @@
+18/11/25 04:31:27 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+18/11/25 04:31:28 INFO client.RMProxy: Connecting to ResourceManager at master/172.16.1.1:8032
+18/11/25 04:31:28 INFO yarn.Client: Requesting a new application from cluster with 3 NodeManagers
+18/11/25 04:31:28 INFO yarn.Client: Verifying our application has not requested more than the maximum memory capability of the cluster (8192 MB per container)
+18/11/25 04:31:28 INFO yarn.Client: Will allocate AM container, with 1408 MB memory including 384 MB overhead
+18/11/25 04:31:28 INFO yarn.Client: Setting up container launch context for our AM
+18/11/25 04:31:28 INFO yarn.Client: Setting up the launch environment for our AM container
+18/11/25 04:31:28 INFO yarn.Client: Preparing resources for our AM container
+18/11/25 04:31:30 WARN yarn.Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+18/11/25 04:31:33 INFO yarn.Client: Uploading resource file:/tmp/spark-217ce9b3-e68b-45b2-ae5f-6810440c5084/__spark_libs__2604324234603190509.zip -> hdfs://master:9000/user/hadoop/.sparkStaging/application_1543099092534_0024/__spark_libs__2604324234603190509.zip
+18/11/25 04:31:35 INFO yarn.Client: Uploading resource file:/home/hadoop/apps/wordcount/Spark/wordcount-0.0.1.jar -> hdfs://master:9000/user/hadoop/.sparkStaging/application_1543099092534_0024/wordcount-0.0.1.jar
+18/11/25 04:31:35 INFO yarn.Client: Uploading resource file:/tmp/spark-217ce9b3-e68b-45b2-ae5f-6810440c5084/__spark_conf__3355056981327525544.zip -> hdfs://master:9000/user/hadoop/.sparkStaging/application_1543099092534_0024/__spark_conf__.zip
+18/11/25 04:31:35 INFO spark.SecurityManager: Changing view acls to: hadoop
+18/11/25 04:31:35 INFO spark.SecurityManager: Changing modify acls to: hadoop
+18/11/25 04:31:35 INFO spark.SecurityManager: Changing view acls groups to: 
+18/11/25 04:31:35 INFO spark.SecurityManager: Changing modify acls groups to: 
+18/11/25 04:31:35 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(hadoop); groups with view permissions: Set(); users  with modify permissions: Set(hadoop); groups with modify permissions: Set()
+18/11/25 04:31:35 INFO yarn.Client: Submitting application application_1543099092534_0024 to ResourceManager
+18/11/25 04:31:35 INFO impl.YarnClientImpl: Submitted application application_1543099092534_0024
+18/11/25 04:31:36 INFO yarn.Client: Application report for application_1543099092534_0024 (state: ACCEPTED)
+18/11/25 04:31:36 INFO yarn.Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1543120295492
+	 final status: UNDEFINED
+	 tracking URL: http://master:8088/proxy/application_1543099092534_0024/
+	 user: hadoop
+18/11/25 04:31:37 INFO yarn.Client: Application report for application_1543099092534_0024 (state: ACCEPTED)
+18/11/25 04:31:38 INFO yarn.Client: Application report for application_1543099092534_0024 (state: ACCEPTED)
+18/11/25 04:31:39 INFO yarn.Client: Application report for application_1543099092534_0024 (state: ACCEPTED)
+18/11/25 04:31:40 INFO yarn.Client: Application report for application_1543099092534_0024 (state: ACCEPTED)
+18/11/25 04:31:41 INFO yarn.Client: Application report for application_1543099092534_0024 (state: ACCEPTED)
+18/11/25 04:31:42 INFO yarn.Client: Application report for application_1543099092534_0024 (state: ACCEPTED)
+18/11/25 04:31:43 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:31:43 INFO yarn.Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 172.16.1.10
+	 ApplicationMaster RPC port: 0
+	 queue: default
+	 start time: 1543120295492
+	 final status: UNDEFINED
+	 tracking URL: http://master:8088/proxy/application_1543099092534_0024/
+	 user: hadoop
+18/11/25 04:31:44 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:31:45 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:31:46 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:31:47 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:31:48 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:31:49 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:31:50 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:31:51 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:31:52 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:31:53 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:31:54 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:31:55 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:31:56 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:31:57 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:31:58 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:31:59 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:32:00 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:32:01 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:32:02 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:32:03 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:32:04 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:32:05 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:32:06 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:32:07 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:32:08 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:32:09 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:32:10 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:32:11 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:32:12 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:32:13 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:32:14 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:32:15 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:32:16 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:32:17 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:32:18 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:32:19 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:32:20 INFO yarn.Client: Application report for application_1543099092534_0024 (state: RUNNING)
+18/11/25 04:32:21 INFO yarn.Client: Application report for application_1543099092534_0024 (state: FINISHED)
+18/11/25 04:32:21 INFO yarn.Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 172.16.1.10
+	 ApplicationMaster RPC port: 0
+	 queue: default
+	 start time: 1543120295492
+	 final status: SUCCEEDED
+	 tracking URL: http://master:8088/proxy/application_1543099092534_0024/
+	 user: hadoop
+18/11/25 04:32:21 INFO util.ShutdownHookManager: Shutdown hook called
+18/11/25 04:32:21 INFO util.ShutdownHookManager: Deleting directory /tmp/spark-217ce9b3-e68b-45b2-ae5f-6810440c5084
