@@ -2,7 +2,7 @@
 I=1
 for f in *.txt
 do	
-	if [ $((I++)) == 9 ]
+	if [ $((I++)) == 8 ]
  	then
 		break
 	fi
